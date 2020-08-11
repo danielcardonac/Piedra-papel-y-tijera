@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra Papel o Tijera</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Piedra Papel o Tijera</h1>
+    </header>
+
+    <div class="score-board">
+        <div id="user-label" class="badge">usuario</div>
+        <div id="comp-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+
+    <div class="result">
+        <p>El papel cubre a la piedra. Tu ganas!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="images/rock.png" alt="rock">
+        </div>
+        <div class="choice" id="p">
+            <img src="images/paper.png" alt="paper">
+        </div>
+        <div class="choice" id="s">
+            <img src="images/scissors.png" alt="scissors">
+        </div>
+    </div>
+
+    <p id="action-message">Has tu jugada.</p>
+    <script src="app.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>
